@@ -1,0 +1,45 @@
+
+React Native
+============
+
+framework for building mobile apps
+
+view -> div
+button - in native with capital
+Image to display images
+TextInput
+
+- React Native p‰ivittyy todella usein
+- render piirt‰‰ pelk‰ss‰ Reactissa - case sensitive tietysti!
+  - View vastaa divi‰ React vs. React Native
+  - Button isolla B:ll‰ react nativeessa
+  - View on sama kuin Flex container
+  - Flex itemit tulee Flex containerin sis‰‰n
+  - Flex direction dictates primary axis
+  - Haku ja lista yhdess‰ n‰ytˆss‰ flex-komponenttien avulla
+
+
+- alignItems m‰‰ritt‰‰ asemoinnin
+- secondary axisista tulee se toinen
+- alignItems m‰‰ritt‰‰ secondary akselin
+- jakauma
+
+- npm run android siirt‰‰ androidille ilman a-n‰pp‰int‰
+- k‰ytett‰v‰t komponentit importoidaan ensin
+- Alert.alert voi n‰ytt‰‰ popup viestej‰
+- inline tyyli on mahdollinen ja saattaa lˆyty‰ style-attribuutti
+- JSX:‰‰ eka { ja toka ett‰ nyt tulee javascript-objekti {{
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+

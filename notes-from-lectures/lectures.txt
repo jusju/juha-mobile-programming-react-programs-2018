@@ -1,0 +1,36 @@
+React Forms
+
+Statet ja propsit
+
+- propsit ei muutu komponentin sisällä, vaan tulevat ulkopuolelta
+- statet sisäinen tila
+- re-render tapahtuu
+
+- Propsit tulee attribuuttina
+- Tilan muutokset aina setState:n kautta, jotta osaa re-renderöidä
+
+- Rest apin datan käyttö
+
+- Kirjoja vaikka lista
+- map toimii hyvin listojen käsittelyyn
+- mapin parametrinä on aina funktio
+- jokaiselle alkiolle tehdään sisällä oleva funktio
+
+let arrA = [1, 2, 3];
+
+Listojen käsittely - tehdään renderissä
+
+Tila listItems
+this.state = {listItems: []};
+
+- käyttöliittymäelementtejä ei stateen
+
+- index on uniikki
+
+Formin käsittely Reactissa - javascript funktio herätetään, jolla on pääsy formin
+tietoihin submission jälkeen
+
+
+
+
+

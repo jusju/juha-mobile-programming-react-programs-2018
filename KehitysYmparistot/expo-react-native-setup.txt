@@ -1,0 +1,21 @@
+-lataa node 8.9.4 LTS (windows installer) ja asenna se https://nodejs.org/en/ node command promptia käyttäen
+
+
+-asennus päivittää samalla npm:n versioon 5, täytyy downgradeta, koska create-react-native-app ei supportaa versiota 5.
+
+
+Tämä onnistuu komennolla: npm install -g npm@4
+-asenna create-react-native-app (tällä tehdään HelloWorld -ohjelma) globaalisti komennolla: npm install -g create-react-native-app
+-luo app johonkin sijaintiin komennolla: create-react-native-app appin_nimi
+-navigoi node command promptilla luotuun kansioon ja käynnistä appi komennolla: npm start
+-lataa Androidiisi Play Storesta Expo
+-jos laitteesi on samassa verkossa kuin kone, jolla app asustaa, lue terminaalilla QR koodi jonka pitäisi startessa ilmestyä terminaalille
+-toinen vaihtoehto: 
+	*yhdistä laite USB:illa koneeseen
+	*enabloi Androidista USB-debugging (edellyttää että Developer Optionsit on enabloitu)
+	*muokkaa appin .expo kansiosta löytyvän settings.jsonin hostType -propertyä: "hostType": "tunnel" ---> "hostType": "localhost"
+-kun appi on käynnistetty terminaalista, paina a-näppäintä ( Press a to open Android device or emulator.)
+-pitäisi toimia
+
+
+Täältä voi lukea aiheesta myös: https://github.com/react-community/create-react-native-app
