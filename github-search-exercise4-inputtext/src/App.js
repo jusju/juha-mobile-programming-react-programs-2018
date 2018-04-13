@@ -4,10 +4,11 @@ import "./App.css";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { listItems: [], searchTerm : '' };
+    this.state = { listItems: [], name : '' };
   }
 
   buttonPressed = () => {
+    console.log(this.state.name);
     fetch("https://api.github.com/search/repositories?q=" + this.state.name)
       .then(response => response.json())
       .then(responseData => {
@@ -15,6 +16,10 @@ class App extends Component {
           listItems: responseData.items
         });
       });
+  };
+
+  inputChanged = (event) => {
+    this.setState({name: event.target.value});
   };
 
   render() {

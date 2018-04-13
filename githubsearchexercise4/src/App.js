@@ -9,7 +9,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://api.github.com/search/repositories?q=bitcoin')
+    fetch('https://api.github.com/search/repositories?q=react')
       .then((response) => response.json())
       .then((responseData) => {
         this.setState({

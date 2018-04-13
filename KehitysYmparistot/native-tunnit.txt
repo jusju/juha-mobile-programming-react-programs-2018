@@ -29,7 +29,62 @@ TextInput
 - Alert.alert voi näyttää popup viestejä
 - inline tyyli on mahdollinen ja saattaa löytyä style-attribuutti
 - JSX:ää eka { ja toka että nyt tulee javascript-objekti {{
+
+- You can use decimals in flex
+- Result: this.state.resulttext
+
+yarn run android
+
+- FlatList shows list of items like from a REST api - includes pull to refresh
+1. import FlatList
+2. introduce array to show data
+3. Add with spread notation
+
+Add a flat list to calculator
+
+npm install -s react-navigation
+
+-s means package is as dependency in packet.json
+
+import {StackNavigator}
+
+- in navigate can send object
+
+React Native: Expo SDK
+======================
+
+- Location and Permission
+- Permissions.askAsync
+- SQLite database
 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

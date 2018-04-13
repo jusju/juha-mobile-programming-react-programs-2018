@@ -30,6 +30,35 @@ this.state = {listItems: []};
 Formin k‰sittely Reactissa - javascript funktio her‰tet‰‰n, jolla on p‰‰sy formin
 tietoihin submission j‰lkeen
 
+SAVE
+
+- Saving must be ASYNC 
+- Saved items must be strings
+
+NETWORKING
+
+- Need to present data with in React Native with those
+- unique id is needed, can get from keyExtractor
+- ItemSeparatorComponent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

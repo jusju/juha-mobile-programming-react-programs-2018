@@ -1,0 +1,12 @@
+EXPO SDK
+----------------
+
+- system and hardware access
+- with expo sdk cannot write native apps to it's folder
+- create-react-app eject needs to be done before native
+- accelerometer
+- face detection
+- camera
+- docs.expo.io/versions/latest/
+- fingerprint
+- 
